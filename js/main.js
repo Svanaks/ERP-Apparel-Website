@@ -56,6 +56,8 @@ app.controller("ArticleCtrl", function($scope, $http) {
         });
 });
 
+
+
 /**
  * Controls Home Page.
  */
