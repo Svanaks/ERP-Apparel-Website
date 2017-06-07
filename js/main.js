@@ -16,6 +16,7 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/house", {templateUrl: "partials/house.html", controller: "HouseCtrl"})
     .when("/articles", {templateUrl: "partials/articles.html", controller: "ArticleCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
+    .when("/contact/success", {templateUrl: "partials/contact_success.html", controller: "PageCtrl"})
 
 
     //PROJECTS 
