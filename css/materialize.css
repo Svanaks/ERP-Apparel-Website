@@ -3397,7 +3397,8 @@ nav ul a span.badge {
 }
 
 .row .col {
-  float: left;
+  /*float: left;*/
+  display: inline-block;
   box-sizing: border-box;
   padding: 0 0.75rem;
   min-height: 1px;

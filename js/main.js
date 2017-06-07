@@ -41,7 +41,7 @@ app.controller("ArticleCtrl", function($scope, $http) {
 
       $http({
         method: 'GET',
-        url: 'http://localhost/ERP-Apparel-Back/web/app_dev.php/articles/website'
+        url: 'http://localhost/ERP-Apparel-Back/web/app_dev.php/articles/website/7'
       }).then(function successCallback(response) {
           // this callback will be called asynchronously
           // when the response is available
@@ -57,7 +57,16 @@ app.controller("ArticleCtrl", function($scope, $http) {
 });
 
 
+app.controller('HouseCtrl', function ($scope) {
+    $scope.load = function() {
+        $(document).ready(function(){
+            $('.parallax').parallax();
+        });
+    };
 
+   //don't forget to call the load function
+   $scope.load();
+});
 /**
  * Controls Home Page.
  */

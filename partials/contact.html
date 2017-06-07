@@ -1,10 +1,42 @@
-<div class="container">    
-        <h4>You can find us somewhere in here!</h4>
-        <iframe
-          width="600"
-          height="450"
-          frameborder="0" style="border:0"
-          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCJZ8kgiR6vTUBgUbov3s2w3JA6_5hgD-c
-            &q=Paris,France" allowfullscreen>
-        </iframe>
+<div class="container">
+    <div class="row">
+        <div class="col m10 offset-m1 s12">
+            <h2 class="center-align">Contactez Nous!</h2>
+            <div class="row">
+                <form class="col s12" action="http://localhost/ERP-Apparel-Back/web/app_dev.php/mail" method="post">
+                    <div class="row">
+                        <div class="input-field col m6 s12">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">Nom</label>
+                        </div>
+                        <div class="input-field col m6 s12">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Prénom</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col m6 s12">
+                            <!-- <i class="mdi-content-mail prefix"></i> -->
+                            <input id="email" type="email" class="validate" required>
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <textarea id="message" class="materialize-textarea"></textarea>
+                          <label for="message">Message</label>
+                        </div>
+                    </div>
+                   
+                    <div class="row">
+                        <div class="col m12">
+                         <p class="right-align">
+                         <input type="submit" class="btn btn-large waves-effect waves-light" value="Submit">
+                         </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
